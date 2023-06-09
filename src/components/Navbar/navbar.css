@@ -1,0 +1,46 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    padding: 2em;
+    
+      
+}
+
+.navbar-left {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    align-items: center;
+
+}
+
+
+.navbar-left  a {
+    text-decoration: none;
+    color: black;
+        
+    font-family: "Space Mono";
+    font-weight: bold;
+    font-style: italic;
+    font-size: larger;
+}
+
+.navbar-left  a:hover {
+    color: blueviolet;
+}
+
+.navbar-right {
+   
+}
+
+.navbar-right a {
+    background-color: blueviolet;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 0.6em;
+        
+    font-family: "Space Mono";
+    font-weight: lighter;
+
+}

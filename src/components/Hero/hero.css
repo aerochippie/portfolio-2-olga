@@ -1,0 +1,63 @@
+
+
+.hero-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2em;
+    padding-top: 4em;
+    padding-bottom: 8em;
+    width: 80%;
+   margin: 0 auto;
+   height: 90vh;
+   
+}
+.hero-container h1 {
+  font-family: "Space Mono";
+  font-weight: bold;
+  font-style: italic;
+}
+.hero-container p {
+    font-family: "Space Mono";
+    font-weight: 200;
+  
+    animation: fadeInAnimation ease-in-out 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+
+.hero-right {
+    display: flex;
+    flex-direction: column;
+    padding: 3em;
+}
+.hero-left {
+    width: 100%;
+}
+.hero-left img {
+    width: 100%;
+    height: auto;
+}
+
+
+@keyframes fadeInAnimation {
+    0% {
+        word-spacing: 100px;
+        color: red;
+    }
+    25% {
+        word-spacing: 75px;
+        color:green;
+     }
+     50% {
+        word-spacing: 50px;
+        color:blue;
+     }
+     75% {
+        word-spacing: 20px;
+        color: burlywood;
+     }
+    100% {
+        word-spacing: 5px;
+     }
+}
