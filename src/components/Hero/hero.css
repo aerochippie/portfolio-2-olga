@@ -36,7 +36,8 @@
 }
 .hero-left img {
     width: 100%;
-    height: auto;
+  max-width: 400px;
+  height: auto;
 }
 
 
@@ -61,3 +62,36 @@
         word-spacing: 5px;
      }
 }
+
+@media only screen and (min-width: 1900px) {
+
+.hero-left {
+    text-align: center;
+    width: 60%;
+}
+.hero-left img
+{
+    width: 50%;
+}
+.hero-right {
+    width: 60%;
+}
+}
+
+@media only screen and (min-width: 1000px) {
+
+    .hero-left {
+        text-align: center;
+        width: 50%;
+    }
+    .hero-left img
+    {
+    }
+    .hero-right {
+        width: 60%;
+    }
+    .buttons a{
+        text-align: center;
+        margin: 1em auto;
+    }
+    }

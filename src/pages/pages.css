@@ -150,8 +150,8 @@ padding: 1em;
 .about img
 {
     width: 100%;
+    max-width: 400px;
     height: auto;
-    border-radius: 10px;
 }
 .about-skills{
  display: flex;
@@ -257,4 +257,89 @@ padding: 1em;
         100% {
             word-spacing: 5px;
          }
+        }
+
+
+
+@media only screen and (min-width: 1900px) {
+
+    .about-left{ 
+    text-align: center;
+}
+.about img {
+width: 60%;
+}
+
+}
+
+@media only screen and (max-width: 1270px) {
+
+
+      
+.projects-cards {
+    justify-content: center;
+}
+    
+    }
+@media only screen and (max-width: 1000px) {
+
+    .about{
+        width: 100%;
+    }
+    .about-content {
+        margin-bottom: 0;
+
+    }
+    .contact{
+        width: 100%;
+    }
+    .card {
+        max-width: 300px;
+    }
+    .card-image {
+        max-width: 300px;
+    }
+    .card img{
+        opacity: 50%;
+        border-radius: 10px;
+        width: 100%;
+        object-fit:contain;
+      }
+    
+      .card img:hover{
+        opacity: 100% ;
+      }
+
+      
+.projects-cards {
+    justify-content: center;
+}
+    
+    }
+
+    @media only screen and (max-width: 800px) {
+
+.about{
+    width: 100%;
+}
+.about-top{
+    flex-direction: column;
+}
+
+.about-left{
+    width:40%;
+}
+
+.about-right{
+    width: 80%;
+}
+
+
+.projects-cards {
+    flex-direction: column;
+}
+.contact{
+    width: 100%;
+}
+        
         }
