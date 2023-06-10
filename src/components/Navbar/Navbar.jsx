@@ -6,14 +6,14 @@ export const Navbar = () => {
    <section className='navbar-container'>
     <section className="navbar">
       <div className="navbar-left">
-        <Link to='/'> logo </Link>
+        <Link to='/'> <img src="/logo.png" alt="" /> </Link>
         <Link to='/'> home </Link>
         <Link to='/projects'> projects </Link>
         <Link to='/about'> about </Link>
           
       </div>
       <div className="navbar-right">
-      <Link to='/about'> hire me! </Link>
+    
       </div>
     </section>
    </section>

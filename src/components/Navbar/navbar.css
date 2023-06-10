@@ -26,19 +26,20 @@
 }
 
 .navbar-left  a:hover {
-    color: blueviolet;
+    color: rgb(43, 207, 152);
 }
 
-.navbar-right {
+.navbar-left img{
+    width: 50%;
+    height: auto;
    
 }
 
 .navbar-right a {
-    background-color: blueviolet;
+    background-color: rgb(71, 0, 137);
     color: white;
     text-decoration: none;
-    border-radius: 10px;
-    padding: 0.6em;
+    padding: 0.6em 1em;
         
     font-family: "Space Mono";
     font-weight: lighter;

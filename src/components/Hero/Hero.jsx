@@ -8,7 +8,7 @@ export const Hero = () => {
 <div className="hero-container">
     <div className="hero-left">
 
-        <img src="/exampleimg.jpg" alt="" />
+        <img src="/portrait.jpg" alt="" />
     </div>
     <div className="hero-right">
 

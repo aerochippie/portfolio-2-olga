@@ -6,6 +6,8 @@ import { Link } from "react-router-dom";
 
 export const Footer = () => {
   return (
-    <div className='footer'>This webpage was made with <HiHeart/> by <Link to='/home'> <FaGithubAlt/>github/aerochippe </Link> </div>
+    <div className='footer'>
+      <p> This webpage was made with  <HiHeart/>  by  <Link to='/home'>  <FaGithubAlt/>github/aerochippe </Link></p>
+       </div>
   )
 }

@@ -1,12 +1,18 @@
 .footer{
-    background-color: black;
+    background-color: rgb(14, 14, 14);
     color: white;
     text-align: center;
+    margin: 0;
     padding: 1em;
+    font-size: smaller;
+    
     
 }
 
 .footer a {
     text-decoration: none;
-    color: inherit;
+    color: rgb(120, 36, 239);
+    text-align: center;
+
+   
 }
